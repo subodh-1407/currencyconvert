@@ -11,7 +11,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 ::selection {
@@ -140,7 +140,7 @@ form button {
   color: #fff;
   font-size: 18px;
   cursor: pointer;
-  background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
   border-radius: 8px;
   transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(103, 90, 254, 0.3);
