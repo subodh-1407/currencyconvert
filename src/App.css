@@ -11,8 +11,12 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  https://media.istockphoto.com/id/660651294/vector/currencies-forex-trading.jpg?s=2048x2048&w=is&k=20&c=6IXE9woFFwKba8tPB1Dz0hJW3ghDQQhukLZTII-caEI=
-
+  
+  background-image: url('https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg');
+  background-size: cover;         /* Scale the image to cover the whole element */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;
+}
 ::selection {
   color: #fff;
   background: #333;
@@ -22,9 +26,10 @@ body {
   width: 370px;
   padding: 35px;
   border-radius: 10px;
-  https://media.istockphoto.com/id/660651294/vector/currencies-forex-trading.jpg?s=2048x2048&w=is&k=20&c=6IXE9woFFwKba8tPB1Dz0hJW3ghDQQhukLZTII-caEI=
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
   color: #fff;
+  background-color: #E4E4E1;
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
   border: 1px solid #444;
 }
 
@@ -138,7 +143,9 @@ form button {
   color: #fff;
   font-size: 18px;
   cursor: pointer;
-  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background: #ff6666;
+  background: linear-gradient(90deg, rgba(255, 102, 102, 1) 0%, rgba(255, 43, 43, 1) 50%, rgba(255, 0, 4, 1) 100%);
+  background-size: 200% 200%;
   border-radius: 8px;
   transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(103, 90, 254, 0.3);
