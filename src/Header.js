@@ -1,11 +1,13 @@
-
 import React from 'react';
-import styles from './Header.module.css';  // Import the CSS Module
+import styles from './Header.module.css';
 
 function Header() {
   return (
     <header className={styles.header}>
-      Currency Converter
+      <div className={styles.abc}>
+        <div className={styles.headerText}>Currency Converter</div>
+      </div>
+      
     </header>
   );
 }
